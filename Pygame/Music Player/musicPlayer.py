@@ -14,6 +14,8 @@ class Music:
         # Start playing the song 
         mixer.music.play() 
 
+    #Refer to musicList.py for the names 
+    #Make necessary changes
     def pickMusic(self,name):
         if(name=='dialogue'):
             mixer.music.load(DIALOGUE)
